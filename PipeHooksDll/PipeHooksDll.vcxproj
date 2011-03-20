@@ -136,11 +136,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ComThread.cpp" />
     <ClCompile Include="SocketDll.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ComThread.h" />
     <ClInclude Include="MailboxClient.h" />
     <ClInclude Include="MultiThreadPipeServer.h" />
     <ClInclude Include="PipeClient.h" />

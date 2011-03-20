@@ -9,8 +9,6 @@ extern "C" {
 #endif
 
 
-#define SERVER_NAME "\\\\.\\pipe\\josiah_test_hook_pipe"
-
 	enum TASKBAR_MESSAGE {
 		MSG_WINDOW_MOVED = 1,
 		MSG_WINDOW_OPENED = 2,

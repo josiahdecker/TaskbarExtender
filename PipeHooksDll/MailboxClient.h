@@ -40,6 +40,7 @@ MailboxClient<T>::~MailboxClient() {
 	}
 }
 
+//TODO - convert to async write
 template<typename T>
 DWORD MailboxClient<T>::sendMessage(const T& message){
 	DWORD bytesWritten = 0;

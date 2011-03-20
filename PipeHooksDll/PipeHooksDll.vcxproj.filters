@@ -18,9 +18,6 @@
     <ClCompile Include="SocketDll.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ComThread.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SocketDll.h">
@@ -33,9 +30,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MultiThreadPipeServer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ComThread.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MailboxClient.h">

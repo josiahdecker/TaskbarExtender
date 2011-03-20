@@ -166,21 +166,6 @@ __declspec(dllexport) LRESULT CALLBACK shellSignalResponse(int ncode, WPARAM wpa
 
 
 static
-DWORD WINAPI startPipeClientThread(LPVOID param){
-	try {
-		PipeClient<WindowMessage> client(SERVER_NAME);
-		client.connectToServer();
-		client.writeToServer(*((WindowMessage*)param));
-		delete param;
-	} catch (std::exception e) {
-		delete param;
-		throw e;
-	}
-	return 0;
-}
-
-
-static
 void sendMessageToPipe(HWND handle,TASKBAR_MESSAGE message_type, int xpos, int ypos){
 
 	WindowMessage msg; 
